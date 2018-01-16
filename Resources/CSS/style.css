@@ -13,7 +13,12 @@ html{
   background-size: cover;
 }
 
-.container .headline{
+.container{
+  display: inline-flex;
+  align-items: center;
+}
+
+.headline .container{
   padding: .5rem;
   position: relative;
   width: 70%;
@@ -21,23 +26,20 @@ html{
   color: white;
   margin-top: 2%;
   margin-left: 15%;
-  display: inline-flex;
-  align-items: center;
 }
 
-.container .logo{
+.logo img{
   display: inline-flex;
   align-items: center;
   padding-left: 2rem;
-  height: 10%;
+  max-height: 6rem;
 }
 
-.container .menu{
+.menu{
   padding-left: 32.5rem;
 }
 
- .container .menu ul li{
-  display: inline-flex;
-  align-items: center;
+ .menu ul li{
+  display: inline;
   padding: 0 1rem;
 }
